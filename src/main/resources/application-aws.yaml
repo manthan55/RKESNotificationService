@@ -1,0 +1,4 @@
+# activate this profile when running NKESNotificationService app in AWS ElasticBeanstalk
+spring:
+  kafka:
+    bootstrap-servers: "b-2.rkeskafka.ear7fg.c2.kafka.ap-south-1.amazonaws.com:9092,b-1.rkeskafka.ear7fg.c2.kafka.ap-south-1.amazonaws.com:9092"

@@ -1,0 +1,4 @@
+# activate this profile when running NKESNotificationService app in docker container
+spring:
+  kafka:
+    bootstrap-servers: "kafka:29092"

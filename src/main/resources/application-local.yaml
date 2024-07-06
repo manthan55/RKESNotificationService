@@ -1,0 +1,4 @@
+# activate this profile when running NKESNotificationService app locally (via IntelliJ)
+spring:
+  kafka:
+    bootstrap-servers: "localhost:29092"
