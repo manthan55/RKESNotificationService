@@ -1,3 +1,6 @@
+server:
+  port: 8090
+
 spring:
   application:
     name: "RKESNotificationService"
@@ -5,8 +8,6 @@ spring:
     # https://codesarray.com/view/Multiple-application-properties-file-in-spring-boot
     active: "local"
     default: "local"
-  kafka:
-    bootstrap-servers: "kafka:29092"
 
 
 
